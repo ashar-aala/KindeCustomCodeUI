@@ -19,7 +19,7 @@ const Layout = async ({ request }) => {
   return (
     <html lang={request.locale.lang}>
       <head>
-        <meta charset="UTF-8" />
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="noindex" />
         <meta name="csrf-token" content={getKindeCSRF()} />
