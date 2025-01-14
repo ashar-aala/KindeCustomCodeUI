@@ -9,6 +9,12 @@ import {
 import React from "react";
 import { renderToString } from "react-dom/server.browser";
 
+export const pageSettings = {
+  bindings: {
+    "kinde.localization": {},
+  },
+};
+
 const Layout = async ({ request }) => {
   return (
     <html lang={request.locale.lang}>
